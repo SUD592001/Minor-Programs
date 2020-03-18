@@ -129,7 +129,7 @@ for(int row = array.length -1; row>=0; row--) {
             //Checks if there is a winner depending on how many pieces are in rows and columns.
             if (tie == row * col) {
                 System.out.println("Draw. Nobody wins.");
-                break; //Bruh
+                break; //Lab 6 comment change.
             }
         }
     }
